@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287705884692",
+    "project_id": "lehighstudymate",
+    "storage_bucket": "lehighstudymate.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287705884692:android:0fc843a631a9328e9c5f01",
+        "android_client_info": {
+          "package_name": "com.example.lehighstudymate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq2kvEvJTXZ4p8W2_22KDwSTz6aDr6Glg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

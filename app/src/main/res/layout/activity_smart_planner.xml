@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI Smart Planner"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak or type your tasks for today:"
+        android:textColor="#666666"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/et_tasks"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:gravity="top"
+            android:hint="e.g., Finish Math HW, Gym, Call Mom..."
+            android:padding="10dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_voice_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:backgroundTint="#2196F3"
+            android:contentDescription="Voice Input"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_generate_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Optimized Schedule"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#673AB7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggested Plan:"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/tv_plan_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI suggestions will appear here..."
+            android:lineSpacingExtra="6dp"
+            android:textSize="16sp"/>
+    </ScrollView>
+
+</LinearLayout>
