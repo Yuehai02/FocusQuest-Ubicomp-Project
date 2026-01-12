@@ -1,9 +1,3 @@
-Here is a professional, comprehensive, and GitHub-ready **README.md** file for your project.
-
-It highlights the **Ubiquitous Computing (Ubicomp)** aspects, technical depth, and the complete feature set we implemented.
-
------
-
 # FocusQuest 
 
 ### A Context-Aware AI Learning Companion & Gamified Focus Guardian
